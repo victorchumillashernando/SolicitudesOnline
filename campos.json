@@ -1,0 +1,282 @@
+[
+    {
+        "valor": null,
+        "id": 1,
+        "nombre": "Asignacion",
+        "tipo": "String",
+        "opciones": "Definitivo|Pr\u00e9stamo",
+        "label": "Asignaci\u00f3n",
+        "expresionRegular": null,
+        "ayuda": "Asignaci\u00f3n"
+    },
+    {
+        "valor": null,
+        "id": 2,
+        "nombre": "CentroCoste",
+        "tipo": "String",
+        "opciones": "",
+        "label": "Centro de coste",
+        "expresionRegular": null,
+        "ayuda": "Centro de coste"
+    },
+    {
+        "valor": null,
+        "id": 3,
+        "nombre": "ClavePublica",
+        "tipo": "File",
+        "opciones": "",
+        "label": "Clave p\u00fablica",
+        "expresionRegular": null,
+        "ayuda": "Clave p\u00fablica"
+    },
+    {
+        "valor": null,
+        "id": 4,
+        "nombre": "Descripcion",
+        "tipo": "String",
+        "opciones": "",
+        "label": "Descripci\u00f3n",
+        "expresionRegular": null,
+        "ayuda": "Descripci\u00f3n"
+    },
+    {
+        "valor": null,
+        "id": 5,
+        "nombre": "Destino",
+        "tipo": "Location",
+        "opciones": "",
+        "label": "Destino",
+        "expresionRegular": null,
+        "ayuda": "Destino"
+    },
+    {
+        "valor": null,
+        "id": 6,
+        "nombre": "Equipos",
+        "tipo": "Array",
+        "opciones": "",
+        "label": "Equipos",
+        "expresionRegular": "^(.(?!(\\|)))+(-(.(?!(-|\\|)))*)?$",
+        "ayuda": "N\u00ba Etiqueta*-Descripci\u00f3n (Ej: 0123456789-Monitor HP)"
+    },
+    {
+        "valor": null,
+        "id": 7,
+        "nombre": "FechaNecesidad",
+        "tipo": "DateTime",
+        "opciones": "",
+        "label": "Fecha necesidad",
+        "expresionRegular": null,
+        "ayuda": "Fecha necesidad"
+    },
+    {
+        "valor": null,
+        "id": 8,
+        "nombre": "NivelLlamada",
+        "tipo": "String",
+        "opciones": "Voz|Voz + Datos|Datos",
+        "label": "Nivel de llamada",
+        "expresionRegular": null,
+        "ayuda": "Nivel de llamada"
+    },
+    {
+        "valor": null,
+        "id": 9,
+        "nombre": "NumSolicitado",
+        "tipo": "String",
+        "opciones": "",
+        "label": "N\u00ba Solicitado",
+        "expresionRegular": null,
+        "ayuda": "N\u00ba Solicitado"
+    },
+    {
+        "valor": null,
+        "id": 10,
+        "nombre": "Observaciones",
+        "tipo": "String",
+        "opciones": "",
+        "label": "Observaciones",
+        "expresionRegular": null,
+        "ayuda": "Observaciones"
+    },
+    {
+        "valor": null,
+        "id": 11,
+        "nombre": "Origen",
+        "tipo": "Location",
+        "opciones": "",
+        "label": "Origen",
+        "expresionRegular": null,
+        "ayuda": "Origen"
+    },
+    {
+        "valor": null,
+        "id": 12,
+        "nombre": "PerfilIgualQue",
+        "tipo": "User",
+        "opciones": "",
+        "label": "Perfil igual que",
+        "expresionRegular": null,
+        "ayuda": "Usuario con el mismo rol que solicita"
+    },
+    {
+        "valor": null,
+        "id": 13,
+        "nombre": "Repositorio",
+        "tipo": "String",
+        "opciones": "",
+        "label": "Repositorio",
+        "expresionRegular": null,
+        "ayuda": "Repositorio"
+    },
+    {
+        "valor": null,
+        "id": 14,
+        "nombre": "Tablas",
+        "tipo": "Array",
+        "opciones": "",
+        "label": "Tablas",
+        "expresionRegular": "^(.(?!(\\|)))+",
+        "ayuda": "Tablas"
+    },
+    {
+        "valor": null,
+        "id": 15,
+        "nombre": "UnidadesRed",
+        "tipo": "String",
+        "opciones": "",
+        "label": "Unidades de red",
+        "expresionRegular": null,
+        "ayuda": "Unidades de red"
+    },
+    {
+        "valor": null,
+        "id": 16,
+        "nombre": "TipoLlamada",
+        "tipo": "String",
+        "opciones": "Nacional|Internacional|Corporativo",
+        "label": "Tipo de llamada",
+        "expresionRegular": null,
+        "ayuda": "Tipo de llamada"
+    },
+    {
+        "valor": null,
+        "id": 18,
+        "nombre": "MailRegistradoMitele",
+        "tipo": "String",
+        "opciones": null,
+        "label": "mail registrado en MITELEPLUS",
+        "expresionRegular": null,
+        "ayuda": "mail registrado en MITELEPLUS"
+    },
+    {
+        "valor": null,
+        "id": 19,
+        "nombre": "PaisDestion",
+        "tipo": "String",
+        "opciones": "",
+        "label": "Pa\u00eds destino",
+        "expresionRegular": null,
+        "ayuda": "Pa\u00eds destino"
+    },
+    {
+        "valor": null,
+        "id": 20,
+        "nombre": "TiempoDurExcepcion",
+        "tipo": "String",
+        "opciones": "",
+        "label": "Tiemo de duraci\u00f3n de la excepcion",
+        "expresionRegular": null,
+        "ayuda": "Tiemo de duraci\u00f3n de la excepcion"
+    },
+    {
+        "valor": null,
+        "id": 21,
+        "nombre": "NumMovil",
+        "tipo": "String",
+        "opciones": "",
+        "label": "Numero de m\u00f3vil",
+        "expresionRegular": null,
+        "ayuda": "Numero de m\u00f3vil"
+    },
+    {
+        "valor": null,
+        "id": 22,
+        "nombre": "TipoUsuario",
+        "tipo": "String",
+        "opciones": "EXTERNO|BECARIO|Corporativo (Mediaset, Publiespa\u00f1a, Megamedia, etc)",
+        "label": "Tipo de usuario",
+        "expresionRegular": null,
+        "ayuda": "Tipo de usuario"
+    },
+    {
+        "valor": null,
+        "id": 23,
+        "nombre": "CAEntidadCertificadora",
+        "tipo": "String",
+        "opciones": "",
+        "label": "CA: Entidad Certificadora",
+        "expresionRegular": null,
+        "ayuda": "CA: Entidad Certificadora"
+    },
+    {
+        "valor": null,
+        "id": 24,
+        "nombre": "Commonname",
+        "tipo": "String",
+        "opciones": "",
+        "label": "Common name: [certificado principal asociado]",
+        "expresionRegular": null,
+        "ayuda": "Common name: [certificado principal asociado]"
+    },
+    {
+        "valor": null,
+        "id": 25,
+        "nombre": "SiaplicaCertificadosComodines",
+        "tipo": "String",
+        "opciones": "",
+        "label": "Subject Alternative Name (SAN)|[otros certificados asociados]",
+        "expresionRegular": null,
+        "ayuda": "Subject Alternative Name (SAN)|[otros certificados asociados]"
+    },
+    {
+        "valor": null,
+        "id": 26,
+        "nombre": "Organizaci\u00f3n",
+        "tipo": "String",
+        "opciones": "",
+        "label": "Organizaci\u00f3n",
+        "expresionRegular": null,
+        "ayuda": "Organizaci\u00f3n"
+    },
+    {
+        "valor": null,
+        "id": 27,
+        "nombre": "TipodeValidaci\u00f3n",
+        "tipo": "String",
+        "opciones": "SV|OV|EV",
+        "label": "Tipo de Validaci\u00f3n",
+        "expresionRegular": null,
+        "ayuda": "Tipo de Validaci\u00f3n"
+    },
+    {
+        "valor": null,
+        "id": 28,
+        "nombre": "Propietario",
+        "tipo": "String",
+        "opciones": "SV|OV|EV",
+        "label": "Propietario (Responsable)",
+        "expresionRegular": null,
+        "ayuda": "Propietario (Responsable)"
+    },
+    {
+        "valor": null,
+        "id": 29,
+        "nombre": "MaildelResponsable",
+        "tipo": "String",
+        "opciones": "SV|OV|EV",
+        "label": "Mail del Responsable",
+        "expresionRegular": null,
+        "ayuda": "Mail del Responsable"
+    }
+]
