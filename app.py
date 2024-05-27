@@ -8,10 +8,10 @@ import os
 import psycopg2
 
 conexion = psycopg2.connect(
-            dbname="postgres",
-            user="superuser",
-            password="Root12345678",
-            host="caupostgre.postgres.database.azure.com",  # o la dirección de tu servidor PostgreSQL
+            dbname=st.secrets["dbname"],
+            user="st.secrets["user"]",
+            password=st.secrets["password"],
+            host=st.secrets["host"],  # o la dirección de tu servidor PostgreSQL
             port="5432"       # el puerto por defecto de PostgreSQL es 5432
         )
 
@@ -22,8 +22,8 @@ cursor = conexion.cursor()
         
 
 openai.api_type = "azure"
-openai.api_key = "4fa9cd946ebc42d281ffbd9d1373e893"
-openai.api_base = "https://msoais.openai.azure.com/"
+openai.api_key = st.secrets["key"]
+openai.api_base = st.secrets["base"]
 openai.api_version = "2023-05-15"
 
 promptInicial = """
