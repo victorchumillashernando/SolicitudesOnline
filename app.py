@@ -9,7 +9,7 @@ import psycopg2
 
 conexion = psycopg2.connect(
             dbname=st.secrets["dbname"],
-            user="st.secrets["user"]",
+            user=st.secrets["user"],
             password=st.secrets["password"],
             host=st.secrets["host"],  # o la dirección de tu servidor PostgreSQL
             port="5432"       # el puerto por defecto de PostgreSQL es 5432
