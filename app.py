@@ -72,6 +72,8 @@ def generarToken(usuario):
 
     # Realizar el POST con autenticación básica
     response = requests.post(url, auth=HTTPBasicAuth(username, password),verify=False)
+    print(response)
+    print(response.text)
     st.write(response)
 
     #print(response.content)
