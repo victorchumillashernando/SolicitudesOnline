@@ -72,6 +72,7 @@ def generarToken(usuario):
 
     # Realizar el POST con autenticación básica
     response = requests.post(url, auth=HTTPBasicAuth(username, password),verify=False)
+    st.write(response)
 
     #print(response.content)
     response_json = response.json()
@@ -236,8 +237,8 @@ logo_url = "Mediaset_España.svg.png"
 # Mostrar el logo de la empresa en la parte superior
 st.image(logo_url, use_column_width=True)
 
-#if not check_password():
-   #st.stop() 
+if not check_password():
+   st.stop() 
 
 print(st.session_state.correo)
 with st.sidebar:
